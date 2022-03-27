@@ -3,6 +3,27 @@
 履歴書ついでにいままでやってきたことを記載します。  
 仕事以外の活動も記載していきたいので年月順に記載していきます。
 
+## 基本情報
+
+|              |                                         |
+| ------------ | --------------------------------------- |
+| 氏名         | 五十嵐翔 (Syo Igarashi))                |
+| Twitter      | https://twitter.com/syo_igarashi        |
+| Qiita        | https://qiita.com/igara                 |
+| Zenn         | https://zenn.dev/igara                  |
+| はてなブログ | https://igara1119.hatenablog.com        |
+| Speaker Deck | https://speakerdeck.com/igara           |
+| GitHub       | https://github.com/igara                |
+| Wantedly     | https://www.wantedly.com/users/18191415 |
+| LAPRAS       | https://lapras.com/public/TE6SJSN       |
+| 個人サイト   | https://syonet.work                     |
+
+### GitHub Readme Stats
+
+[![igara's github stats](https://github-readme-stats.vercel.app/api?username=igara)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=igara)](https://github.com/anuraghazra/github-readme-stats)
+
 ## 目次
 
 - [基本情報](#基本情報)
@@ -67,26 +88,6 @@
       - [アジャイルメディア・ネットワーク株式会社](#アジャイルメディア・ネットワーク株式会社)
     - [Qiita での活動-1](#qiita-での活動-1)
     - [GitHub での活動-1](#github-での活動-1)
-
-## 基本情報
-
-|              |                                         |
-| ------------ | --------------------------------------- |
-| 氏名         | 五十嵐翔 (Syo Igarashi))                |
-| Twitter      | https://twitter.com/syo_igarashi        |
-| Qiita        | https://qiita.com/igara                 |
-| はてなブログ | https://igara1119.hatenablog.com        |
-| Speaker Deck | https://speakerdeck.com/igara           |
-| GitHub       | https://github.com/igara                |
-| Wantedly     | https://www.wantedly.com/users/18191415 |
-| LAPRAS       | https://lapras.com/public/TE6SJSN       |
-| 個人サイト   | https://syonet.work                     |
-
-### GitHub Readme Stats
-
-[![igara's github stats](https://github-readme-stats.vercel.app/api?username=igara)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=igara)](https://github.com/anuraghazra/github-readme-stats)
 
 ## いままで
 
