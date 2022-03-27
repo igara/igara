@@ -5,17 +5,18 @@
 
 ## 基本情報
 
-| 氏名         | 五十嵐翔 (Syo Igarashi))                |
-| ------------ | --------------------------------------- |
-| Twitter      | https://twitter.com/syo_igarashi        |
-| Qiita        | https://qiita.com/igara                 |
-| Zenn         | https://zenn.dev/igara                  |
-| はてなブログ | https://igara1119.hatenablog.com        |
-| Speaker Deck | https://speakerdeck.com/igara           |
-| GitHub       | https://github.com/igara                |
-| Wantedly     | https://www.wantedly.com/users/18191415 |
-| LAPRAS       | https://lapras.com/public/TE6SJSN       |
-| 個人サイト   | https://syonet.work                     |
+| 氏名         | 五十嵐翔 (Syo Igarashi))                                 |
+| ------------ | -------------------------------------------------------- |
+| Twitter      | https://twitter.com/syo_igarashi                         |
+| Qiita        | https://qiita.com/igara                                  |
+| Zenn         | https://zenn.dev/igara                                   |
+| はてなブログ | https://igara1119.hatenablog.com                         |
+| Speaker Deck | https://speakerdeck.com/igara                            |
+| GitHub       | https://github.com/igara                                 |
+| YouTube      | https://www.youtube.com/channel/UCuAfp10MNsFIV6ytObuw_sw |
+| Wantedly     | https://www.wantedly.com/users/18191415                  |
+| LAPRAS       | https://lapras.com/public/TE6SJSN                        |
+| 個人サイト   | https://syonet.work                                      |
 
 ### GitHub Readme Stats
 
