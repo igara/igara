@@ -5,9 +5,8 @@
 
 ## 基本情報
 
-|              |                                         |
-| ------------ | --------------------------------------- |
 | 氏名         | 五十嵐翔 (Syo Igarashi))                |
+| ------------ | --------------------------------------- |
 | Twitter      | https://twitter.com/syo_igarashi        |
 | Qiita        | https://qiita.com/igara                 |
 | Zenn         | https://zenn.dev/igara                  |
