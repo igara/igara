@@ -1,12 +1,16 @@
 import * as fs from "fs";
-import * as highlight from "highlight.js";
+import highlight from "highlight.js";
 import * as marked from "marked";
 
-const highlightStyle = fs.readFileSync("./node_modules/highlight.js/styles/railscasts.css", "utf8");
-const markdownStyle = fs.readFileSync("./node_modules/github-markdown-css/github-markdown.css", "utf8");
+const highlightStyle = fs.readFileSync("./node_modules/highlight.js/styles/github.css", "utf8");
+const markdownStyle = fs.readFileSync("./node_modules/github-markdown-css/github-markdown-light.css", "utf8");
 const styleTag = `<style>
 ${highlightStyle}
 ${markdownStyle}
+.markdown-body img {
+  object-fit: contain;
+  height: auto;
+}
 </style>`;
 
 const exec = () => {
@@ -18,7 +22,7 @@ const exec = () => {
     return `<a target="_blank" rel="noopener noreferrer" href="${href}">${text}</a>`;
   };
 
-  let body = marked(markdown, {
+  let body = marked.marked(markdown, {
     gfm: true,
     highlight: (code) => {
       return highlight.highlightAuto(code).value;
