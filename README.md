@@ -16,7 +16,7 @@
 | YouTube      | https://www.youtube.com/channel/UCuAfp10MNsFIV6ytObuw_sw |
 | Wantedly     | https://www.wantedly.com/users/18191415                  |
 | LAPRAS       | https://lapras.com/public/TE6SJSN                        |
-| 個人サイト   | https://syonet.work                                      |
+| 個人サイト   | https://igara.github.io                                  |
 
 ### GitHub Readme Stats
 

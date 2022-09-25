@@ -1,17 +1,5 @@
 import * as fs from "fs";
-import highlight from "highlight.js";
 import * as marked from "marked";
-
-const highlightStyle = fs.readFileSync("./node_modules/highlight.js/styles/github.css", "utf8");
-const markdownStyle = fs.readFileSync("./node_modules/github-markdown-css/github-markdown-light.css", "utf8");
-const styleTag = `<style>
-${highlightStyle}
-${markdownStyle}
-.markdown-body img {
-  object-fit: contain;
-  height: auto;
-}
-</style>`;
 
 const exec = () => {
   const markdown = fs.readFileSync("README.md").toString();
@@ -24,9 +12,6 @@ const exec = () => {
 
   let body = marked.marked(markdown, {
     gfm: true,
-    highlight: (code) => {
-      return highlight.highlightAuto(code).value;
-    },
     renderer,
   });
 
@@ -34,7 +19,7 @@ const exec = () => {
   ${body}
 </div>`;
 
-  fs.writeFileSync("README.html", styleTag + body);
+  fs.writeFileSync("README.html", body);
 };
 
 exec();
