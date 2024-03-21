@@ -5,7 +5,7 @@
 
 ## 基本情報
 
-| 氏名         | 五十嵐翔 (Syo Igarashi))                                 |
+| 氏名         | 五十嵐翔 (Syo Igarashi)                                  |
 | ------------ | -------------------------------------------------------- |
 | Twitter      | https://twitter.com/syo_igarashi                         |
 | Qiita        | https://qiita.com/igara                                  |
@@ -88,6 +88,13 @@
       - [アジャイルメディア・ネットワーク株式会社](#アジャイルメディア・ネットワーク株式会社)
     - [Qiita での活動-1](#qiita-での活動-1)
     - [GitHub での活動-1](#github-での活動-1)
+  - [2018/10~2020/3](#20181020203)
+    - [株式会社ディー・エヌ・エー](#株式会社ディー・エヌ・エー)
+      - [Pococha](#Pococha)
+  - [2020/9~2024/2](#2020920242)
+    - [ランサーズ株式会社](#ランサーズ株式会社)
+      - [ランサーズ](#ランサーズ)
+      - [Autron](#Autron)
 
 ## いままで
 
@@ -345,49 +352,70 @@ jQuery に似た smartjs という独自ライブラリとサーバサイド側�
 この時の開発環境として iOS 側は Objective-C、Android 側は Android Studio で Java を書く環境だった。  
 バーコードを読み込むものとして zxing というのを使っていたのをなんとなく覚えている。
 
+後に出た[問題](https://hayabusa9.5ch.net/test/read.cgi/news/1563957770/?v=pc)に関しては名前は似てるけど自分ではない。
+
 #### Qiita での活動-0
 
-##### [[メモ]Vagrant を使って VM を起動する](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-11%2018:51:31-%5B%E3%83%A1%E3%83%A2%5DVagrant%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6VM%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B)
+##### [[メモ]Vagrant を使って VM を起動する](https://qiita.com/igara/items/989ea37805f0db85b2f2)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-11%2018-51-31%20%5B%E3%83%A1%E3%83%A2%5DVagrant%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6VM%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B/README.md)
 
 この時、ローリングリリースな OS での開発をしたいというもので Gentoo の仮想環境を整えたかったことからメモとして Qiita に記載した。
 
 下記の記事はこの時に作成した VM を用いており、[個人サイト](https://github.com/igara/syonet)を作成したときも Gentoo を選択していたため開発環境として利用していた。
 
-- [[メモ]Gentoo に H2O+PHP7.0.0RC4 をインストールする。](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-11%2020:22:16-%5B%E3%83%A1%E3%83%A2%5DGentoo%E3%81%ABH2O%2BPHP7.0.0RC4%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82)
-- [[メモ]VirtualBox で作成した Gentoo からホストのフォルダを共有させる](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-17%2009:18:17-%5B%E3%83%A1%E3%83%A2%5DVirtualBox%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FGentoo%E3%81%8B%E3%82%89%E3%83%9B%E3%82%B9%E3%83%88%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%92%E5%85%B1%E6%9C%89%E3%81%95%E3%81%9B%E3%82%8B)
+- [[メモ]Gentoo に H2O+PHP7.0.0RC4 をインストールする。](https://qiita.com/igara/items/1b7cd8e714844440795d)  
+  [バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-11%2020-22-16%20%5B%E3%83%A1%E3%83%A2%5DGentoo%E3%81%ABH2O%20%EF%BC%8B%20PHP7.0.0RC4%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82/README.md)
+
+- [[メモ]VirtualBox で作成した Gentoo からホストのフォルダを共有させる](https://qiita.com/igara/items/61e2f42da7e412333216)  
+  [バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-17%2009-18-17%20%5B%E3%83%A1%E3%83%A2%5DVirtualBox%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FGentoo%E3%81%8B%E3%82%89%E3%83%9B%E3%82%B9%E3%83%88%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%92%E5%85%B1%E6%9C%89%E3%81%95%E3%81%9B%E3%82%8B/README.md)
 
 この VM とは別で[コンテナ](https://github.com/igara/syonetdocker)を作成していたが当時動作が安定しなかったためこの VM を使用することが多かった。
 
-##### [[メモ]Gentoo に H2O+PHP7.0.0RC4 をインストールする。](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-11%2020:22:16-%5B%E3%83%A1%E3%83%A2%5DGentoo%E3%81%ABH2O%2BPHP7.0.0RC4%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82)
+##### [[メモ]Gentoo に H2O+PHP7.0.0RC4 をインストールする。](https://qiita.com/igara/items/1b7cd8e714844440795d)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-11%2020-22-16%20%5B%E3%83%A1%E3%83%A2%5DGentoo%E3%81%ABH2O%20%EF%BC%8B%20PHP7.0.0RC4%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%80%82/README.md)
 
 VM の環境でとにかく新しいものを導入したりニッチなものを入れてみたい欲求が高く、上記の環境を構築してみたというのがある。
 
-##### [[メモ]VirtualBox で作成した Gentoo からホストのフォルダを共有させる](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-17%2009:18:17-%5B%E3%83%A1%E3%83%A2%5DVirtualBox%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FGentoo%E3%81%8B%E3%82%89%E3%83%9B%E3%82%B9%E3%83%88%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%92%E5%85%B1%E6%9C%89%E3%81%95%E3%81%9B%E3%82%8B)
+##### [[メモ]VirtualBox で作成した Gentoo からホストのフォルダを共有させる](https://qiita.com/igara/items/61e2f42da7e412333216)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-17%2009-18-17%20%5B%E3%83%A1%E3%83%A2%5DVirtualBox%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FGentoo%E3%81%8B%E3%82%89%E3%83%9B%E3%82%B9%E3%83%88%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%82%92%E5%85%B1%E6%9C%89%E3%81%95%E3%81%9B%E3%82%8B/README.md)
 
 Vagrant を使用しているなら config.vm.synced_folder を使用すればいいのではという意見もありそう。  
 既に[個人サイト](https://github.com/igara/syonet)で使用している VM なので Vagrant ファイルの変更したくなく、同じような VM を一時的に別の開発環境でも使用したい時があってこの記事を作成した。  
 記事内では Vagrant という単語を出さずに、 VirtualBox で作成した時のフォルダ共有方法として記載している。
 
-##### [[メモ]node.js でライブラリのバージョン管理する](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-24%2014:03:35-%5B%E3%83%A1%E3%83%A2%5Dnode.js%E3%81%A7%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
+##### [[メモ]node.js でライブラリのバージョン管理する](https://qiita.com/igara/items/34b037c9bfb51108147a)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-24%2014-03-35%20%5B%E3%83%A1%E3%83%A2%5Dnode.js%E3%81%A7%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B/README.md)
 
 [個人サイト](https://github.com/igara/syonet)で Laravel を使用するにあたり、フロントエンド側の構築の際に実施した内容を記載している。  
 当時は npm が nodejs インストールと同時にされるものではなく別でインストールする必要があった。  
 作業は Gentoo で実施していたが Mac でも同様の作業で構築完了できるものとして記載している。
 
-##### [[メモ]H2O で HTTP／2 を使ってみる](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-24%2015:35:32-%5B%E3%83%A1%E3%83%A2%5DH2O%E3%81%A7HTTP%EF%BC%8F2%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B)
+##### [[メモ]H2O で HTTP／2 を使ってみる](https://qiita.com/igara/items/b3f0c8af1eda9866101c)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-24%2015-35-32%20%5B%E3%83%A1%E3%83%A2%5DH2O%E3%81%A7HTTP%EF%BC%8F2%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/README.md)
 
 せっかく H2O でも HTTP／2 が使用できるということなので検証してみた記事。
 
-##### [StoryBoard を生かしたアプリ作りについて](https://github.com/igara/qiita-export/tree/master/data/igara/2015-10-25%2016:05:14-StoryBoard%E3%82%92%E7%94%9F%E3%81%8B%E3%81%97%E3%81%9F%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E3%82%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+##### [StoryBoard を生かしたアプリ作りについて](https://qiita.com/igara/items/2fd319f68746143ffa0c)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-10-25%2016-05-14%20StoryBoard%E3%82%92%E7%94%9F%E3%81%8B%E3%81%97%E3%81%9F%E3%82%A2%E3%83%97%E3%83%AA%E4%BD%9C%E3%82%8A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/README.md)
 
 iOS の UI をコードで調整することが多かったので逆に HP ビルダーみたいなもので UI 構成できないかと考えていた。  
 たまた新しい Xcode の StoryBoard でテーブルを構成する仕組みを思いついたので記載したものである。
 
-##### [[メモ]WebKit を Watch する](https://github.com/igara/qiita-export/tree/master/data/igara/2015-11-08%2015:44:21-%5B%E3%83%A1%E3%83%A2%5DWebKit%E3%82%92Watch%E3%81%99%E3%82%8B)
+##### [[メモ]WebKit を Watch する](https://qiita.com/igara/items/7fd9d94c97134c7783b5)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-11-08%2015-44-21%20%5B%E3%83%A1%E3%83%A2%5DWebKit%E3%82%92Watch%E3%81%99%E3%82%8B/README.md)
 
 モバイルブラウザの対応状況など見てみようとかあって記事にしてみたというのがある。
 
-##### [[メモ]Django のプロジェクト作成と用語](https://github.com/igara/qiita-export/tree/master/data/igara/2015-11-12%2000:44:09-%5B%E3%83%A1%E3%83%A2%5DDjango%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8%E7%94%A8%E8%AA%9E)
+##### [[メモ]Django のプロジェクト作成と用語](https://qiita.com/igara/items/18b2175d6c2e3cf8866d)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-11-12%2000-44-09%20%5B%E3%83%A1%E3%83%A2%5DDjango%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8%E7%94%A8%E8%AA%9E/README.md)
 
 Python 系の Web フレームワークを触ってみたいというのがあってメモの記事を作成した。
 
@@ -397,67 +425,99 @@ https://github.com/igara/SlackRackAPI
 iOS のクライアントとしてこちらになる。  
 https://github.com/igara/SlackRackSwift
 
-##### [[メモ]OpenShift で Redmine を作成して Redmine と戯れる](https://github.com/igara/qiita-export/tree/master/data/igara/2015-11-14%2018:30:24-%5B%E3%83%A1%E3%83%A2%5DOpenShift%E3%81%A7Redmine%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6Redmine%E3%81%A8%E6%88%AF%E3%82%8C%E3%82%8B)
+##### [[メモ]OpenShift で Redmine を作成して Redmine と戯れる](https://qiita.com/igara/items/33205aebc7cf9337144a)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-11-12%2000-44-09%20%5B%E3%83%A1%E3%83%A2%5DDjango%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8%E7%94%A8%E8%AA%9E/README.md)
 
 自社のサーバで Redmine を使用していてツールなど開発したいと思っていたので個人の Redmine 検証環境として記載したものである。
 
 その時、工数管理で追加したい機能の CSS とかこれに記載していた。  
 https://github.com/igara/inputSupport
 
-##### [OnsenUI でスマホアプリみたいなサイトを作ってみる](https://github.com/igara/qiita-export/tree/master/data/igara/2015-12-05%2015:01:14-OnsenUI%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B)
+##### [OnsenUI でスマホアプリみたいなサイトを作ってみる](https://qiita.com/igara/items/92d0b58c4df21141429a)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-12-05%2015-01-14%20OnsenUI%E3%81%A7%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/README.md)
 
 Cordova のような HTML + JavaScript でモバイルアプリとしても作成できて良さそうと思って[個人サイト](https://github.com/igara/syonet)に導入した記事である。
 
-##### [[メモ]phpenv と php-build を用いた PHP バージョンアップ](https://github.com/igara/qiita-export/tree/master/data/igara/2015-12-05%2016:24:40-%5B%E3%83%A1%E3%83%A2%5Dphpenv%E3%81%A8php-build%E3%82%92%E7%94%A8%E3%81%84%E3%81%9FPHP%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97)
+##### [[メモ]phpenv と php-build を用いた PHP バージョンアップ](https://qiita.com/igara/items/e2374f3ac2a46335a2a3)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-12-05%2016-24-40%20%5B%E3%83%A1%E3%83%A2%5Dphpenv%E3%81%A8php-build%E3%82%92%E7%94%A8%E3%81%84%E3%81%9FPHP%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97/README.md)
 
 [個人サイト](https://github.com/igara/syonet)で使用している PHP のバージョンが RC 版だったりしていたので Stable 版にあげようとした時に記載したもの。
 
-##### [[メモ]TypeScript の設定・用語など](https://github.com/igara/qiita-export/tree/master/data/igara/2015-12-15%2001:07:45-%5B%E3%83%A1%E3%83%A2%5DTypeScript%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%83%BB%E7%94%A8%E8%AA%9E%E3%81%AA%E3%81%A9)
+##### [[メモ]TypeScript の設定・用語など](https://qiita.com/igara/items/6b5595c7e3dbfcb03775)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-12-15%2001-07-45%20%5B%E3%83%A1%E3%83%A2%5DTypeScript%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%83%BB%E7%94%A8%E8%AA%9E%E3%81%AA%E3%81%A9/README.md)
 
 [個人サイト](https://github.com/igara/syonet)で OnsenUI を使用し始めたりで NodeJS のライブラリを使用することが多くなり、JavaScript の処理を書くことも多くなってきた。  
 型による補完効くような環境が欲しくなったためメモとして記載した。
 
-##### [[メモ]サーバ起動時に自動で独自のプロセス起動させるには（chkconfig）](https://github.com/igara/qiita-export/tree/master/data/igara/2015-12-30%2017:34:38-%5B%E3%83%A1%E3%83%A2%5D%E3%82%B5%E3%83%BC%E3%83%90%E8%B5%B7%E5%8B%95%E6%99%82%E3%81%AB%E8%87%AA%E5%8B%95%E3%81%A7%E7%8B%AC%E8%87%AA%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E8%B5%B7%E5%8B%95%E3%81%95%E3%81%9B%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%88chkconfig%EF%BC%89)
+##### [[メモ]サーバ起動時に自動で独自のプロセス起動させるには（chkconfig）](https://qiita.com/igara/items/ecf46903d7c406d966c3)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2015-12-30%2017-34-38%20%5B%E3%83%A1%E3%83%A2%5D%E3%82%B5%E3%83%BC%E3%83%90%E8%B5%B7%E5%8B%95%E6%99%82%E3%81%AB%E8%87%AA%E5%8B%95%E3%81%A7%E7%8B%AC%E8%87%AA%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E8%B5%B7%E5%8B%95%E3%81%95%E3%81%9B%E3%82%8B%E3%81%AB%E3%81%AF%EF%BC%88chkconfig%EF%BC%89/README.md)
 
 service コマンドとは別で自動にプロセス起動するものをメモとして記載。
 
-##### [vorlon.js を使って端末のリモートデバッグしてみる](https://github.com/igara/qiita-export/tree/master/data/igara/2016-01-23%2023:50:05-vorlon.js%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E7%AB%AF%E6%9C%AB%E3%81%AE%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B)
+##### [vorlon.js を使って端末のリモートデバッグしてみる](https://qiita.com/igara/items/d81edf07a4f138cfba68)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-01-23%2023-50-05%20vorlon.js%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E7%AB%AF%E6%9C%AB%E3%81%AE%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B/README.md)
 
 モバイルアプリ内の WebView のデバッグどうするかを考えた時に、それぞれのブラウザで別々のデバッグを行うのではなく共通の操作でデバッグ方法がないか調べた際に得た方法である。
 
-##### [PHP プロジェクトでいろいろな CI サービスを使ってみたというお話](https://github.com/igara/qiita-export/tree/master/data/igara/2016-01-31%2018:48:40-PHP%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%A7%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%81%AACI%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%A8%E3%81%84%E3%81%86%E3%81%8A%E8%A9%B1)
+##### [PHP プロジェクトでいろいろな CI サービスを使ってみたというお話](https://qiita.com/igara/items/b0df734e8e7b1d75f4c0)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-01-31%2018-48-40%20PHP%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%A7%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%81%AACI%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%A8%E3%81%84%E3%81%86%E3%81%8A%E8%A9%B1/README.md)
 
 [個人サイト](https://github.com/igara/syonet)に CI サービスを導入した際に記載したもの。
+会社ではJenkinsを使用したUnitテスト実行うしていたがJenkinsの構築は大変なためSassのものでもCIテストはできることを調査したかった。
 
-##### [OWASP ZAP を使用してサイトの脆弱性と闘う話](https://github.com/igara/qiita-export/tree/master/data/igara/2016-02-11%2019:28:09-OWASP%20ZAP%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%A8%E9%97%98%E3%81%86%E8%A9%B1)
+##### [OWASP ZAP を使用してサイトの脆弱性と闘う話](https://qiita.com/igara/items/637b710e79f9c425a770)
 
-個人サイトの脆弱性あるか調べたい際に記載した内容。
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-02-11%2019-28-09%20OWASP%20ZAP%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%A8%E9%97%98%E3%81%86%E8%A9%B1/README.md)
 
-##### [Protractor + mocha + power-assert + TypeScript を用いて OnsenUI で作成したサイトの E2E テスト](https://github.com/igara/qiita-export/tree/master/data/igara/2016-02-21%2017:04:12-Protractor%20%2B%20mocha%20%2B%20power-assert%20%2B%20TypeScript%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6OnsenUI%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AEE2E%E3%83%86%E3%82%B9%E3%83%88)
+個人サイトの脆弱性あるか調べたい際に記載した内容。  
+当時会社でVexを使用した調査をしていたがOSSのものでも調査してみたいのが個人的にあって使用した。
+
+##### [Protractor + mocha + power-assert + TypeScript を用いて OnsenUI で作成したサイトの E2E テスト](https://qiita.com/igara/items/15fd40241b9d702648b1)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-02-21%2017-04-12%20Protractor%20%EF%BC%8B%20mocha%20%EF%BC%8B%20power-assert%20%EF%BC%8B%20TypeScript%E3%82%92%E7%94%A8%E3%81%84%E3%81%A6OnsenUI%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AEE2E%E3%83%86%E3%82%B9%E3%83%88/README.md)
 
 [個人サイト](https://github.com/igara/syonet)が Angular 使っており、Angular の公式ページで Protractor を推奨していたので使用してみた記事。
 
-##### [H2O のアクセスログを Kibana + Elasticsearch + Fluentd で可視化する](https://github.com/igara/qiita-export/tree/master/data/igara/2016-03-19%2021:39:29-H2O%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%AD%E3%82%B0%E3%82%92Kibana%20%2B%20Elasticsearch%20%2B%20Fluentd%E3%81%A7%E5%8F%AF%E8%A6%96%E5%8C%96%E3%81%99%E3%82%8B)
+##### [H2O のアクセスログを Kibana + Elasticsearch + Fluentd で可視化する](https://qiita.com/igara/items/1fb46a590aa937ddfe32)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-03-19%2021-39-29%20H2O%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%AD%E3%82%B0%E3%82%92Kibana%20%EF%BC%8B%20Elasticsearch%20%EF%BC%8B%20Fluentd%E3%81%A7%E5%8F%AF%E8%A6%96%E5%8C%96%E3%81%99%E3%82%8B/README.md)
 
 アクセスログの可視化をやったことがなかったのでやってみた内容。
 
-##### [Zenmap(nmap)を使ったサーバのポートスキャン](<https://github.com/igara/qiita-export/tree/master/data/igara/2016-03-26%2016:53:27-Zenmap(nmap)%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AE%E3%83%9D%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%B3>)
+##### [Zenmap(nmap)を使ったサーバのポートスキャン](https://qiita.com/igara/items/b386be966cdf064f92bc)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-03-26%2016-53-27%20Zenmap(nmap)%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AE%E3%83%9D%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%B3/README.md)
 
 空いているポートから特定の攻撃をされることがありそうというのを感じたのでポートスキャンする方法を得たいと調べてみた記事。
 
-##### [非イラストレータが初めて PC でイラストを描いた話](https://github.com/igara/qiita-export/tree/master/data/igara/2016-04-03%2022:40:41-%E9%9D%9E%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%BF%E3%81%8C%E5%88%9D%E3%82%81%E3%81%A6PC%E3%81%A7%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%82%92%E6%8F%8F%E3%81%84%E3%81%9F%E8%A9%B1)
+##### [非イラストレータが初めて PC でイラストを描いた話](https://qiita.com/igara/items/3a8dfad331652b632eff)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-04-03%2022-40-41%20%E9%9D%9E%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%BF%E3%81%8C%E5%88%9D%E3%82%81%E3%81%A6PC%E3%81%A7%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%82%92%E6%8F%8F%E3%81%84%E3%81%9F%E8%A9%B1/README.md)
 
 自分で絵などプログラミング以外のコンテンツの拡張したいと思った結果やってみた記事。
 
-##### [CSS で動くイラストを描いてみた（おまけで PostCSS 導入のお話）](https://github.com/igara/qiita-export/tree/master/data/igara/2016-04-07%2018:15:40-CSS%E3%81%A7%E5%8B%95%E3%81%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%82%92%E6%8F%8F%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F%EF%BC%88%E3%81%8A%E3%81%BE%E3%81%91%E3%81%A7PostCSS%E5%B0%8E%E5%85%A5%E3%81%AE%E3%81%8A%E8%A9%B1%EF%BC%89)
+##### [CSS で動くイラストを描いてみた（おまけで PostCSS 導入のお話）](https://qiita.com/igara/items/918c6237d0cf8fbc0c1d)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-04-07%2018-15-40%20CSS%E3%81%A7%E5%8B%95%E3%81%8F%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%82%92%E6%8F%8F%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F%EF%BC%88%E3%81%8A%E3%81%BE%E3%81%91%E3%81%A7PostCSS%E5%B0%8E%E5%85%A5%E3%81%AE%E3%81%8A%E8%A9%B1%EF%BC%89/README.md)
 
 画像じゃなくて CSS で絵を描いてみたらどうだろうと思ったので挑戦してみた記事である。
 
-##### [閲覧しているサイトの ServiceWorker の登録削除と Cache API のキャッシュを全て削除する JS コード](https://github.com/igara/qiita-export/tree/master/data/igara/2016-04-11%2017:58:27-%E9%96%B2%E8%A6%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AEServiceWorker%E3%81%AE%E7%99%BB%E9%8C%B2%E5%89%8A%E9%99%A4%E3%81%A8Cache%20API%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%92%E5%85%A8%E3%81%A6%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8BJS%E3%82%B3%E3%83%BC%E3%83%89)
+##### [閲覧しているサイトの ServiceWorker の登録削除と Cache API のキャッシュを全て削除する JS コード](https://qiita.com/igara/items/9564008194c74e12551e)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-04-11%2017-58-27%20%E9%96%B2%E8%A6%A7%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AEServiceWorker%E3%81%AE%E7%99%BB%E9%8C%B2%E5%89%8A%E9%99%A4%E3%81%A8Cache%20API%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%92%E5%85%A8%E3%81%A6%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8BJS%E3%82%B3%E3%83%BC%E3%83%89/README.md)
 
 Service Worker を入れてオフラインでも見えるページを追加した際にいつまでもページ更新されない事象があったのでユーザ側から更新できるようなものあったらいいなと思い記載したもの。
 
-##### [グラフィックツールで作成した SVG にアニメーションを付け加える](https://github.com/igara/qiita-export/tree/master/data/igara/2016-04-23%2015:43:33-%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FSVG%E3%81%AB%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BB%98%E3%81%91%E5%8A%A0%E3%81%88%E3%82%8B)
+##### [グラフィックツールで作成した SVG にアニメーションを付け加える](https://qiita.com/igara/items/1c614473e86460715ff9)
+
+[バックアップ](https://github.com/igara/qiita-export/blob/master/data/igara/2016-04-23%2015-43-33%20%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9FSVG%E3%81%AB%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BB%98%E3%81%91%E5%8A%A0%E3%81%88%E3%82%8B/README.md)
 
 ペイントツールや CSS でも絵を描いてみてイラストを書く人とコーディングする人でいい中間地点はどこだろうと思った。  
 探した結果、SVG にだして Path の情報を CSS で書き換えれば良さそうと思ったので記載したもの。
@@ -558,3 +618,17 @@ React Native によるスマホアプリ作成でカメラからカルテの内�
 #### Qiita での活動-1
 
 #### GitHub での活動-1
+
+### 2018/10~2020/3
+
+#### 株式会社ディー・エヌ・エー
+
+##### Pococha
+
+### 2020/9~2024/2
+
+#### ランサーズ株式会社
+
+##### ランサーズ
+
+##### Autron
